@@ -49,3 +49,17 @@
     margin-left: 5px;
     margin-bottom: 0px;
 }
+
+.mainmenu{
+    text-align: center;
+    clear: left;
+    background-color: #a1bfd3;
+}
+
+ul{
+    list-style: none;
+}
+ul li:before {
+    text-align:left;
+    content: '✓';
+}
