@@ -2,7 +2,7 @@
     color: #e6eef4;
     background-color: #355a73;
     font-family: "Open Sans", "Arial, sans-serif";
-/*    line-height: 1.5;*/
+    /*    line-height: 1.5;*/
     float: left;
     width: 100%;
     display: block;
@@ -10,8 +10,8 @@
     padding: .5rem 0;
 }
 
-.header_text{
-    float:left;
+.header_text {
+    float: left;
     display: block;
 }
 
@@ -21,11 +21,31 @@
     padding-right: 10em;
 }
 
-.my_account_button{
+.my_account_button {}
 
+.float-right {}
+
+.menu-container {
+    width: 100%;
+    text-align: center;
+    clear: left;
+    align-content: center;
 }
-.float-right{
 
+.std-logo {
+    width: 25%;
+    align-content: center;
 }
 
-
+.header_menu {
+    display: inline;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-weight: normal;
+    color: #3398db;
+    text-decoration: none;
+    padding: .2em;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
