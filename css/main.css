@@ -1,0 +1,31 @@
+.header-bar {
+    color: #e6eef4;
+    background-color: #355a73;
+    font-family: "Open Sans", "Arial, sans-serif";
+/*    line-height: 1.5;*/
+    float: left;
+    width: 100%;
+    display: block;
+    font-weight: normal;
+    padding: .5rem 0;
+}
+
+.header_text{
+    float:left;
+    display: block;
+}
+
+.header-bar_contact {
+    text-align: center;
+    padding-left: 20em;
+    padding-right: 10em;
+}
+
+.my_account_button{
+
+}
+.float-right{
+
+}
+
+
