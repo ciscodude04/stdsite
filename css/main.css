@@ -57,7 +57,22 @@
     margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
 .links {
     width: 80%;
     align-content: center;
+=======
+.mainmenu{
+    text-align: center;
+    clear: left;
+    background-color: #a1bfd3;
+}
+
+ul{
+    list-style: none;
+}
+ul li:before {
+    text-align:left;
+    content: '✓';
+>>>>>>> master
 }
