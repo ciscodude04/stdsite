@@ -2,7 +2,7 @@
     color: #e6eef4;
     background-color: #355a73;
     font-family: "Open Sans", "Arial, sans-serif";
-    /*    line-height: 1.5;*/
+/*    line-height: 1.5;*/
     float: left;
     width: 100%;
     display: block;
@@ -10,34 +10,40 @@
     padding: .5rem 0;
 }
 
-.header_text {
-    float: left;
+.header_text{
+    float:left;
     display: block;
+    padding-left: 25em;
 }
 
 .header-bar_contact {
-    text-align: center;
-    padding-left: 20em;
-    padding-right: 10em;
+    padding-right: 15em;
+    display: block;
 }
 
-.my_account_button {}
-
-.float-right {}
+.my_account_button{
+    padding-left: 2.7375rem;
+}
+.float-right {
+    float: right;
+}
 
 .menu-container {
     width: 100%;
-    text-align: center;
+/*    text-align: center;*/
     clear: left;
     align-content: center;
+    float: left;
 }
 
 .std-logo {
     width: 25%;
-    align-content: center;
+    float: left;
+    position: static;
 }
 
 .header_menu {
+    width: 25%;
     display: inline;
     cursor: pointer;
     background-color: transparent;
@@ -45,11 +51,17 @@
     font-weight: normal;
     color: #3398db;
     text-decoration: none;
+    text-align: center;
     padding: .2em;
-    margin-left: 5px;
+    margin-left: .2em;
     margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
+.links {
+    width: 80%;
+    align-content: center;
+=======
 .mainmenu{
     text-align: center;
     clear: left;
@@ -62,4 +74,5 @@ ul{
 ul li:before {
     text-align:left;
     content: '✓';
+>>>>>>> master
 }
