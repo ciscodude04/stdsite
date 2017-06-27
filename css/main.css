@@ -1,3 +1,7 @@
+body{
+      font-family: "Open Sans", "Arial, sans-serif";
+}
+
 .header-bar {
     color: #e6eef4;
     background-color: #355a73;
@@ -62,4 +66,15 @@ ul{
 ul li:before {
     text-align:left;
     content: '✓';
+}
+
+.step-labels{
+    font-family: "Open Sans", "Arial", "sans-serif";
+    background-color: #5b90b3;
+    color: #fff;
+}
+
+.accredited-seal{
+    width: 25%;
+
 }
